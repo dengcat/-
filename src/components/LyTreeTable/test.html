@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>力高主数据平台</title>
+  <style>
+    .tree-column {
+      padding: 0px 4px;
+      min-width: 60px;
+      text-align: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      display: inline
+    }
+
+    .drag-tree-table-header {
+      display: flex;
+      padding: 15px 10px;
+      background: #f5f7fa;
+      height: 66px;
+      line-height: 36px;
+      box-sizing: border-box;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="drag-tree-table-header">
+    <div class="tree-column" style="width: 150px;">
+      <!---->
+      标段
+    </div>
+    <div class="tree-column" style="width: 90px;">
+      <!---->
+      楼栋
+    </div>
+    <div class="tree-column" style="width: 110px;">
+      <!---->
+      产品类型
+    </div>
+    <div class="tree-column" style="width: 120px;">
+      <!---->
+      产品名称
+    </div>
+    <div class="tree-column">
+      <div class="tree-column" style="width: 130px;">
+        <!---->
+        2019年前
+      </div>
+      <div class="tree-column" style="width: 528px;">
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          一季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          二季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          三季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          四季度
+        </div>
+        2019年
+      </div>
+      <div class="tree-column" style="width: 528px;">
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          一季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          二季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          三季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          四季度
+        </div>
+        2020年
+      </div>
+      <div class="tree-column" style="width: 528px;">
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          一季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          二季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          三季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          四季度
+        </div>
+        2021年
+      </div>
+      <div class="tree-column" style="width: 528px;">
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          一季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          二季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          三季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          四季度
+        </div>
+        2022年
+      </div>
+      <div class="tree-column" style="width: 130px;">
+        <!---->
+        2022年后
+      </div>
+      供货面积(平米)
+    </div>
+    <div class="tree-column">
+      <div class="tree-column" style="width: 130px;">
+        <!---->
+        2019年前
+      </div>
+      <div class="tree-column" style="width: 528px;">
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          一季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          二季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          三季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          四季度
+        </div>
+        2019年
+      </div>
+      <div class="tree-column" style="width: 528px;">
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          一季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          二季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          三季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          四季度
+        </div>
+        2020年
+      </div>
+      <div class="tree-column" style="width: 528px;">
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          一季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          二季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          三季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          四季度
+        </div>
+        2021年
+      </div>
+      <div class="tree-column" style="width: 528px;">
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          一季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          二季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          三季度
+        </div>
+        <div class="tree-column" style="width: 130px;">
+          <!---->
+          四季度
+        </div>
+        2022年
+      </div>
+      <div class="tree-column" style="width: 130px;">
+        <!---->
+        2022年后
+      </div>
+      供货金额(万元)
+    </div>
+  </div>
+</body>
+
+</html>

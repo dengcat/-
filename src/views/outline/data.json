@@ -1,0 +1,50 @@
+{
+  // 实施纲要信息
+  "outline_info":{
+    "projectId":"", // 项目ID
+    "projectName":"", // 项目名称
+    "stagesId":"", // 分期ID
+    "stagesName":"", // 分期名称
+    "versionName":"",// 版本名称
+    "mdmVersionId":"", // 主数据版本ID
+    "mdmVersionName":"", // 主数据版本名称
+    "state":"", // 实施纲要状态
+  },
+  // 步骤信息
+  "outline_stepInfo":{ 
+    "steps":[
+      {
+        "stepNum":1,  // 步骤序号
+        "stepName":"版本选择", // 步骤名称
+        "stepState":"已完成",  // 已完成，进行中，未开始
+        "isCurrent":true  //是否当前步骤
+      }
+    ]
+  },
+  // 项目基本信息  
+  "outline_projectInfo":{
+
+  },
+  // 业态信息
+  "outline_productInfo":{
+
+  },
+  // 楼栋信息
+  "outline_buildInfo":{
+
+  },
+  // 基础规划指标
+  "outline_basicPlanInfo":{
+
+  },
+  // 产品规划指标
+  "outline_productPlanInfo":{
+
+  },
+  // 标段规划指标
+  "outline_bidPlanInfo":{
+
+  },
+  // 开发计划指标
+
+}

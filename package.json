@@ -49,7 +49,7 @@
     "numeral": "^2.0.6",
     "qs": "^6.5.2",
     "screenfull": "3.3.2",
-    "showdown": "1.8.6",
+    "showdown": "1.9.1",
     "simplemde": "1.11.2",
     "sortablejs": "1.7.0",
     "uuid": "^3.3.2",
